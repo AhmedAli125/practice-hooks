@@ -1,0 +1,24 @@
+.postComponent{
+    width: 70%;
+    border: 2px solid grey;
+    margin: 2px auto;
+    padding: 5px;
+    font-size: 22px;
+    border-radius: 5px;
+    background-color: whitesmoke;
+  }
+
+  .postComponent:hover{
+    background-color: bisque;
+    transition: 0.25 ease-in-out;
+  }
+
+  .posts{
+      height: 70vh;
+      width: 70%;
+      overflow: auto;
+      margin: 20px auto;
+      padding: 10px;
+      background-color: rebeccapurple;
+      border: 1px solid palegreen;
+  }
